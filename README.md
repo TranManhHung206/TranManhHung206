@@ -1,119 +1,146 @@
-<!--
-  Profile README for github.com/TranManhHung206
-  Create a public repository named exactly: TranManhHung206
-  Keep the assets/ directory beside this README.md.
--->
+<!-- Profile README for github.com/TranManhHung206 -->
 
 <p align="center">
-  <img src="./assets/atlantis-header.svg" alt="Tran Manh Hung — Computer Science student exploring Agentic AI" width="100%" />
+  <img src="./assets/atlantis-header.svg" alt="Tran Manh Hung — Computer Science student focused on AI engineering" width="100%" />
 </p>
 
 <p align="center">
-  <strong>Computer Science student · UIT, VNU-HCM</strong><br />
-  Interested in building intelligent systems and understanding how they work.
+  <strong>Computer Science Student · UIT, VNU-HCM</strong><br />
+  <strong>Backend Engineering · AI / ML · Agentic AI</strong><br />
+  Aspiring AI Engineer
 </p>
 
 <p align="center">
-  <a href="https://github.com/TranManhHung206">GitHub Profile</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/TranManhHung206?tab=repositories">Repositories</a>
+  <a href="https://github.com/TranManhHung206?tab=repositories">
+    <img src="https://img.shields.io/badge/Repositories-Explore-123B5A?style=flat-square&logo=github&logoColor=white" alt="Explore repositories" />
+  </a>
+  <img src="https://img.shields.io/badge/Focus-Agentic%20AI-075985?style=flat-square&logoColor=white" alt="Agentic AI" />
+  <img src="https://img.shields.io/badge/Research-LLMs-164E63?style=flat-square&logoColor=white" alt="LLM research" />
 </p>
 
 ---
 
-## About me
+## <img src="https://img.shields.io/badge/01-ABOUT-0B2942?style=flat-square" alt="01" /> About
 
-Hi, I'm **Hung** — a Computer Science student at the **University of Information Technology, VNU-HCM**.
+I'm **Hung**, a Computer Science student at the **University of Information Technology, VNU-HCM**. I focus on backend development and AI systems, with a growing interest in building reliable, tool-using agents. My long-term goal is to become an **AI Engineer**.
 
-I enjoy building software end to end, experimenting with AI systems, and turning research ideas into working prototypes. My current research interests focus on **Agentic AI, Large Language Models, and NLP**. I am exploring these areas as I work toward my long-term goal of becoming an **AI Engineer**.
+My work currently sits at the intersection of backend engineering, machine learning, and agentic systems — from building AI-enabled applications to studying how LLM-based agents can solve software engineering tasks under constrained budgets.
 
-- **Academic background:** Computer Science.
-- **Research interests:** Agentic AI, LLMs, NLP, and Automated Program Repair.
-- **Career direction:** AI Engineering — building practical, reliable AI-powered systems.
-- **What I build:** full-stack applications, AI-assisted tools, and algorithmic experiments.
-- **Outside the terminal:** music, games, and occasionally getting lost in a good idea.
-
-## Research focus
-
-### Gemma-Loop — Budget-Aware Agentic Program Repair
-
-A research project exploring how **feedback, fused diagnosis, and episodic reflection** affect automated program repair under constrained inference budgets. The study uses Gemma 4 and focuses on practical agent design choices: how to diagnose failures, use execution feedback, and manage limited context and token budgets.
-
-<sub>Research areas: LLM-based program repair · Agentic workflows · Feedback-driven debugging · Inference efficiency</sub>
-
-## Selected projects
+## <img src="https://img.shields.io/badge/02-TECHNICAL%20FOCUS-0B2942?style=flat-square" alt="02" /> Technical Focus
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/TranManhHung206/music_tracking">♫ Music Analytics Dashboard</a></h3>
-      <p>A Spotify listening-history tracker with analytics, audio-feature extraction, AI music insights, and a codebase RAG assistant.</p>
-      <sub><strong>Stack</strong><br />React · TypeScript · Django · PostgreSQL · Redis · librosa · scikit-learn · ChromaDB</sub>
+      <h3>Backend Engineering</h3>
+      <p>Building the application layer that makes AI features usable and dependable.</p>
+      <ul>
+        <li>REST API design and integration</li>
+        <li>Authentication and data workflows</li>
+        <li>Background processing and task orchestration</li>
+      </ul>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/TranManhHung206/llm_gameof24">◇ LLM Game of 24</a></h3>
-      <p>An exploration of classical search and LLM-guided reasoning for the Game of 24, including DFS, BFS, and a Tree of Thoughts approach.</p>
-      <sub><strong>Stack</strong><br />Python · DFS / BFS · Tree of Thoughts · Llama · Groq API</sub>
+      <h3>Machine Learning & LLMs</h3>
+      <p>Working with models, inference pipelines, and practical ML applications.</p>
+      <ul>
+        <li>Model inference and experimentation</li>
+        <li>Quantization and inference efficiency</li>
+        <li>Audio feature extraction and classical ML</li>
+      </ul>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/TranManhHung206/knapsack_solver">▣ Knapsack Solver</a></h3>
-      <p>A test-driven knapsack optimization project using OR-Tools branch-and-bound, with time limits and per-testcase result reporting.</p>
-      <sub><strong>Stack</strong><br />Python · Google OR-Tools · CSV · Optimization</sub>
+      <h3>Agentic AI Systems</h3>
+      <p>Exploring how language models interact with tools and external environments.</p>
+      <ul>
+        <li>LLM API integration</li>
+        <li>Function / tool calling and ReAct workflows</li>
+        <li>Agent harnesses, feedback loops, and evaluation</li>
+      </ul>
     </td>
     <td width="50%" valign="top">
-      <h3>⌁ Current direction</h3>
-      <p>Exploring reliable AI agents: combining language-model reasoning with tools, execution feedback, retrieval, and measurable evaluation.</p>
-      <sub><strong>Topics</strong><br />Agent Harnesses · Tool Use · RAG · Evaluation · Program Repair</sub>
+      <h3>RAG & Knowledge Grounding</h3>
+      <p>Building retrieval pipelines that make generated answers more evidence-based.</p>
+      <ul>
+        <li>Dense and sparse retrieval</li>
+        <li>Hybrid search and rank fusion</li>
+        <li>Codebase RAG and citation verification</li>
+      </ul>
     </td>
   </tr>
 </table>
 
-## Tech I work with
+## <img src="https://img.shields.io/badge/03-FEATURED%20WORK-0B2942?style=flat-square" alt="03" /> Featured Work
 
-<p>
-  <strong>Languages</strong><br />
-  <img alt="Python" src="https://img.shields.io/badge/Python-193B52?style=flat-square&logo=python&logoColor=FFE873" />
-  <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-193B52?style=flat-square&logo=cplusplus&logoColor=9AD0F5" />
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-193B52?style=flat-square&logo=typescript&logoColor=70B7FF" />
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/TranManhHung206/music_tracking">Music Analytics Dashboard</a></h3>
+      <p>A Spotify listening-history platform combining analytics, audio signal processing, AI-powered music insights, and a codebase RAG assistant.</p>
+      <p><strong>My focus</strong></p>
+      <ul>
+        <li>Django backend and API integration</li>
+        <li>AI music analysis and tool-using assistant</li>
+        <li>Hybrid retrieval for codebase Q&amp;A</li>
+      </ul>
+      <sub>Backend · AI Integration · RAG</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Gemma-Loop — Budget-Aware Agentic Program Repair</h3>
+      <p>A research project studying feedback, fused diagnosis, and episodic reflection for automated program repair under constrained inference budgets.</p>
+      <p><strong>Research focus</strong></p>
+      <ul>
+        <li>LLM-based automated program repair</li>
+        <li>Execution feedback and agent workflows</li>
+        <li>Inference-budget-aware evaluation</li>
+      </ul>
+      <sub>Agentic AI · LLM Research · Software Engineering</sub>
+    </td>
+  </tr>
+</table>
+
+## <img src="https://img.shields.io/badge/04-TECH%20STACK-0B2942?style=flat-square" alt="04" /> Tech Stack
+
+<p><strong>Languages & Backend</strong><br />
+  <img alt="Python" src="https://img.shields.io/badge/Python-123B5A?style=flat-square&logo=python&logoColor=FFE873" />
+  <img alt="Django" src="https://img.shields.io/badge/Django-123B5A?style=flat-square&logo=django&logoColor=9FE3B0" />
+  <img alt="Django REST Framework" src="https://img.shields.io/badge/DRF-123B5A?style=flat-square&logo=django&logoColor=9FE3B0" />
+  <img alt="Celery" src="https://img.shields.io/badge/Celery-123B5A?style=flat-square&logo=celery&logoColor=9FE3B0" />
 </p>
-<p>
-  <strong>Web & backend</strong><br />
-  <img alt="React" src="https://img.shields.io/badge/React-193B52?style=flat-square&logo=react&logoColor=61DAFB" />
-  <img alt="Vite" src="https://img.shields.io/badge/Vite-193B52?style=flat-square&logo=vite&logoColor=B7A7FF" />
-  <img alt="Django" src="https://img.shields.io/badge/Django-193B52?style=flat-square&logo=django&logoColor=9FE3B0" />
-  <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind_CSS-193B52?style=flat-square&logo=tailwindcss&logoColor=62D6D0" />
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-193B52?style=flat-square&logo=postgresql&logoColor=9CC8F5" />
-  <img alt="Redis" src="https://img.shields.io/badge/Redis-193B52?style=flat-square&logo=redis&logoColor=FF8C82" />
+
+<p><strong>AI & Machine Learning</strong><br />
+  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-123B5A?style=flat-square&logo=pytorch&logoColor=FF9B75" />
+  <img alt="Hugging Face Transformers" src="https://img.shields.io/badge/Transformers-123B5A?style=flat-square&logo=huggingface&logoColor=FFD66B" />
+  <img alt="bitsandbytes" src="https://img.shields.io/badge/bitsandbytes-123B5A?style=flat-square&logoColor=white" />
+  <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-123B5A?style=flat-square&logo=scikitlearn&logoColor=F4B66A" />
+  <img alt="librosa" src="https://img.shields.io/badge/librosa-123B5A?style=flat-square&logoColor=white" />
 </p>
-<p>
-  <strong>AI, data & retrieval</strong><br />
-  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-193B52?style=flat-square&logo=pytorch&logoColor=FF9B75" />
-  <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-193B52?style=flat-square&logo=scikitlearn&logoColor=F4B66A" />
-  <img alt="NumPy" src="https://img.shields.io/badge/NumPy-193B52?style=flat-square&logo=numpy&logoColor=9CC8F5" />
-  <img alt="Pandas" src="https://img.shields.io/badge/Pandas-193B52?style=flat-square&logo=pandas&logoColor=C7B8FF" />
-  <img alt="Hugging Face" src="https://img.shields.io/badge/Transformers-193B52?style=flat-square&logo=huggingface&logoColor=FFD66B" />
-  <img alt="Git" src="https://img.shields.io/badge/Git-193B52?style=flat-square&logo=git&logoColor=F58A72" />
+
+<p><strong>Retrieval & Data</strong><br />
+  <img alt="ChromaDB" src="https://img.shields.io/badge/ChromaDB-123B5A?style=flat-square&logoColor=white" />
+  <img alt="BM25" src="https://img.shields.io/badge/BM25-123B5A?style=flat-square&logoColor=white" />
 </p>
+
+<sub>LLM API integration, tool calling, RAG, ReAct, hybrid retrieval, and citation verification are listed under Technical Focus rather than as provider-specific technology badges.</sub>
 
 ---
 
-## After hours — The Lost Lobster
+## <img src="https://img.shields.io/badge/05-PERSONAL%20SIGNATURE-0B2942?style=flat-square" alt="05" /> The Lost Lobster
 
 <table>
   <tr>
     <td width="36%" align="center" valign="middle">
-      <img src="./assets/lost-lobster.gif" alt="The Lost Lobster drifting through the ruins of Atlantis" width="245" />
+      <img src="./assets/lost-lobster.gif" alt="The Lost Lobster exploring the ruins of Atlantis" width="245" />
     </td>
     <td width="64%" valign="middle">
-      <h3>Still wandering. Still listening.</h3>
-      <p>A little lobster with a pair of headphones, wandering through the quiet ruins of a sunken city. A personal nod to my nickname, my love of music, and the peaceful, mysterious worlds I like to get lost in.</p>
+      <h3>Still exploring. Still building.</h3>
+      <p>A small lobster exploring the quiet ruins of a sunken city — a visual signature inspired by my nickname and the mysterious world of Atlantis.</p>
       <sub><code>LOCATION: ATLANTIS</code> &nbsp; <code>STATUS: EXPLORING</code></sub>
     </td>
   </tr>
 </table>
 
 <p align="center">
-  <sub>Built with curiosity · tuned to the deep sea</sub>
+  <sub>Built with curiosity · grounded in engineering.</sub>
 </p>

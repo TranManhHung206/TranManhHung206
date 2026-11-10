@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
   <title id="title">Tran Manh Hung — exploring ideas beneath the surface</title>
-  <desc id="desc">A dark pixel-art underwater banner with the ruins of Atlantis and a small orange lobster wearing headphones.</desc>
+  <desc id="desc">An animated dark 16-bit pixel-art underwater banner. A small orange lobster wearing glowing headphones gently floats before the ruins of Atlantis as a jellyfish drifts and pixel bubbles rise.</desc>
   <defs>
     <linearGradient id="ocean" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#061522"/>
@@ -23,9 +23,9 @@
   <!-- Ocean backdrop -->
   <rect width="1200" height="360" rx="18" fill="url(#ocean)"/>
   <rect width="1200" height="360" rx="18" fill="url(#grid)"/>
-  <path d="M765 0L850 0L1040 360H935Z" fill="url(#ray)"/>
-  <path d="M900 0L952 0L1110 360H1056Z" fill="url(#ray)" opacity=".65"/>
-  <path d="M1090 0L1125 0L1200 210V360H1180Z" fill="url(#ray)" opacity=".4"/>
+  <path d="M765 0L850 0L1040 360H935Z" fill="url(#ray)" opacity=".78"><animate attributeName="opacity" values=".58;.9;.58" dur="8s" repeatCount="indefinite"/></path>
+  <path d="M900 0L952 0L1110 360H1056Z" fill="url(#ray)" opacity=".65"><animate attributeName="opacity" values=".38;.72;.38" dur="7s" begin="-2s" repeatCount="indefinite"/></path>
+  <path d="M1090 0L1125 0L1200 210V360H1180Z" fill="url(#ray)" opacity=".4"><animate attributeName="opacity" values=".22;.5;.22" dur="9s" begin="-4s" repeatCount="indefinite"/></path>
 
   <!-- Distant ruins -->
   <g fill="#0B3548" stroke="#1C6273" stroke-width="3" opacity=".9" shape-rendering="crispEdges">
@@ -72,7 +72,7 @@
   </g>
 
   <!-- Small jellyfish and drifting particles -->
-  <g transform="translate(1080 50)" opacity=".85">
+  <g transform="translate(1080 50)" opacity=".85"><animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0;0 5;0 0" keyTimes="0;.3;.6;.82;1" dur="6.5s" additive="sum" repeatCount="indefinite"/>
     <path d="M0 20Q0 0 18 0Q36 0 36 20Z" fill="#4DDCE0"/>
     <path d="M5 21L2 38M14 21L12 42M23 21L26 39M31 21L35 36" stroke="#65E9E7" stroke-width="3" fill="none"/>
     <rect x="9" y="8" width="4" height="4" fill="#D5FFFF"/><rect x="24" y="10" width="4" height="4" fill="#D5FFFF"/>
@@ -83,8 +83,31 @@
     <rect x="980" y="285" width="3" height="3" opacity=".6"/><rect x="740" y="90" width="4" height="4" opacity=".5"/>
   </g>
 
+
+  <!-- Slowly rising pixel bubbles -->
+  <g fill="#9CFBEE" shape-rendering="crispEdges">
+    <g transform="translate(1042 270)" opacity="0">
+      <rect x="0" y="0" width="4" height="4"/>
+      <rect x="6" y="-7" width="3" height="3"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -62" dur="7s" begin="-1.8s" repeatCount="indefinite" additive="sum"/>
+      <animate attributeName="opacity" values="0;.75;.75;0" keyTimes="0;.16;.72;1" dur="7s" begin="-1.8s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(1148 292)" opacity="0">
+      <rect x="0" y="0" width="3" height="3"/>
+      <rect x="-6" y="-8" width="2" height="2"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -78" dur="8.5s" begin="-5s" repeatCount="indefinite" additive="sum"/>
+      <animate attributeName="opacity" values="0;.7;.7;0" keyTimes="0;.18;.7;1" dur="8.5s" begin="-5s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(986 260)" opacity="0">
+      <rect x="0" y="0" width="3" height="3"/>
+      <rect x="5" y="-5" width="2" height="2"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -52" dur="6.2s" begin="-3.2s" repeatCount="indefinite" additive="sum"/>
+      <animate attributeName="opacity" values="0;.65;.65;0" keyTimes="0;.2;.72;1" dur="6.2s" begin="-3.2s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
   <!-- The Lost Lobster: chunky pixel-art silhouette -->
-  <g transform="translate(885 151)" shape-rendering="crispEdges">
+  <g transform="translate(885 151)" shape-rendering="crispEdges"><animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0;0 2;0 0" keyTimes="0;.32;.65;.84;1" dur="5.2s" additive="sum" repeatCount="indefinite"/>
     <!-- tail / rear shell -->
     <g fill="#B84935" stroke="#612B35" stroke-width="4">
       <rect x="-8" y="91" width="25" height="18"/>
@@ -128,12 +151,14 @@
     <path d="M38 72V49Q38 18 69 18Q100 18 100 49V72" fill="none" stroke="#101F35" stroke-width="12"/>
     <path d="M42 70V48Q42 25 69 25Q96 25 96 48V70" fill="none" stroke="#53758D" stroke-width="5"/>
     <rect x="29" y="56" width="20" height="31" rx="3" fill="#10283B" stroke="#071522" stroke-width="4"/>
-    <rect x="33" y="61" width="12" height="21" fill="#00D4D8"/>
+    <rect x="33" y="61" width="12" height="21" fill="#00D4D8"><animate attributeName="opacity" values=".68;1;.68" dur="2.6s" repeatCount="indefinite"/></rect>
     <rect x="36" y="65" width="6" height="13" fill="#8DFCF1"/>
     <rect x="91" y="56" width="18" height="29" rx="3" fill="#10283B" stroke="#071522" stroke-width="4"/>
-    <rect x="95" y="61" width="10" height="19" fill="#00AEBB"/>
+    <rect x="95" y="61" width="10" height="19" fill="#00AEBB"><animate attributeName="opacity" values=".55;.95;.55" dur="2.6s" begin="-1.3s" repeatCount="indefinite"/></rect>
     <!-- tiny music note -->
     <g fill="#7CF7EA">
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -4;0 0" dur="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".65;1;.65" dur="2.8s" repeatCount="indefinite"/>
       <rect x="126" y="28" width="5" height="19"/><rect x="131" y="25" width="12" height="5"/>
       <rect x="123" y="44" width="10" height="5"/>
     </g>
@@ -149,11 +174,11 @@
     <text x="56" y="207" fill="#B4CFD8" font-size="17">Exploring intelligent systems beneath the surface.</text>
     <g font-size="12" font-weight="700" letter-spacing="1.2">
       <rect x="56" y="235" width="115" height="29" rx="5" fill="#0B3548" stroke="#226778"/>
-      <text x="68" y="254" fill="#8CF3EA">AGENTIC AI</text>
+      <text x="113.5" y="254" text-anchor="middle" fill="#8CF3EA">AGENTIC AI</text>
       <rect x="181" y="235" width="92" height="29" rx="5" fill="#0B3548" stroke="#226778"/>
-      <text x="194" y="254" fill="#8CF3EA">LLMs / NLP</text>
+      <text x="227" y="254" text-anchor="middle" fill="#8CF3EA">LLMs / NLP</text>
       <rect x="283" y="235" width="142" height="29" rx="5" fill="#0B3548" stroke="#226778"/>
-      <text x="294" y="254" fill="#8CF3EA">AI ENGINEERING</text>
+      <text x="354" y="254" text-anchor="middle" fill="#8CF3EA">AI ENGINEERING</text>
     </g>
     <path d="M56 294H485" stroke="#1D6272" stroke-width="2"/>
     <text x="56" y="322" fill="#7C9EAC" font-size="13" letter-spacing="1.4">UIT · VNU-HCM</text>
