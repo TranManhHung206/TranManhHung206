@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Tran Manh Hung — exploring ideas beneath the surface</title>
+  <desc id="desc">A dark pixel-art underwater banner with the ruins of Atlantis and a small orange lobster wearing headphones.</desc>
+  <defs>
+    <linearGradient id="ocean" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061522"/>
+      <stop offset="0.58" stop-color="#0A293B"/>
+      <stop offset="1" stop-color="#103C50"/>
+    </linearGradient>
+    <linearGradient id="ray" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#73F5F0" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#00D4D8" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M8 0H0V8" fill="none" stroke="#8BE7E5" stroke-opacity=".035" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Ocean backdrop -->
+  <rect width="1200" height="360" rx="18" fill="url(#ocean)"/>
+  <rect width="1200" height="360" rx="18" fill="url(#grid)"/>
+  <path d="M765 0L850 0L1040 360H935Z" fill="url(#ray)"/>
+  <path d="M900 0L952 0L1110 360H1056Z" fill="url(#ray)" opacity=".65"/>
+  <path d="M1090 0L1125 0L1200 210V360H1180Z" fill="url(#ray)" opacity=".4"/>
+
+  <!-- Distant ruins -->
+  <g fill="#0B3548" stroke="#1C6273" stroke-width="3" opacity=".9" shape-rendering="crispEdges">
+    <path d="M715 265V175H735V150H770V175H790V265Z"/>
+    <rect x="725" y="190" width="10" height="38" fill="#00D4D8" opacity=".5" stroke="none"/>
+    <path d="M780 265V130H800V105H850V130H870V265Z"/>
+    <rect x="810" y="151" width="12" height="29" fill="#28D9D4" opacity=".7" stroke="none"/>
+    <rect x="840" y="151" width="12" height="29" fill="#28D9D4" opacity=".55" stroke="none"/>
+    <path d="M870 265V90H895V60H940V90H965V265Z"/>
+    <rect x="900" y="112" width="12" height="33" fill="#00D4D8" opacity=".72" stroke="none"/>
+    <rect x="930" y="112" width="12" height="33" fill="#00D4D8" opacity=".52" stroke="none"/>
+    <path d="M955 265V155H975V132H1015V155H1035V265Z"/>
+    <path d="M1030 265V190H1050V172H1090V190H1110V265Z"/>
+    <path d="M1120 265V128H1145V105H1180V128H1200V265Z"/>
+  </g>
+  <g fill="none" stroke="#2A8790" stroke-width="7" opacity=".55" shape-rendering="crispEdges">
+    <path d="M690 268V230Q690 195 720 195Q750 195 750 230V268"/>
+    <path d="M760 268V210Q760 178 792 178Q824 178 824 210V268"/>
+    <path d="M1000 268V218Q1000 185 1033 185Q1066 185 1066 218V268"/>
+    <path d="M1090 268V220Q1090 189 1121 189Q1152 189 1152 220V268"/>
+  </g>
+  <g fill="#7CF7EA" filter="url(#glow)" opacity=".85">
+    <rect x="818" y="198" width="7" height="15"/><rect x="906" y="164" width="7" height="14"/>
+    <rect x="937" y="164" width="7" height="14"/><rect x="1042" y="227" width="6" height="12"/>
+    <rect x="1160" y="160" width="7" height="15"/>
+  </g>
+
+  <!-- Foreground seabed and broken columns -->
+  <path d="M650 315L705 302L770 312L830 298L900 315L980 300L1045 314L1125 298L1200 310V360H650Z" fill="#071E2B"/>
+  <g fill="#16465A" stroke="#2A7580" stroke-width="3" shape-rendering="crispEdges">
+    <rect x="710" y="282" width="48" height="13"/><rect x="720" y="268" width="28" height="14"/>
+    <rect x="1085" y="286" width="70" height="14"/><rect x="1100" y="270" width="42" height="16"/>
+  </g>
+  <g fill="#38BFC0" opacity=".75" shape-rendering="crispEdges">
+    <rect x="750" y="320" width="4" height="4"/><rect x="772" y="331" width="3" height="3"/>
+    <rect x="1090" y="327" width="4" height="4"/><rect x="1154" y="316" width="3" height="3"/>
+  </g>
+
+  <!-- Sea grass -->
+  <g fill="none" stroke-linecap="square" stroke-width="5" shape-rendering="crispEdges">
+    <path d="M680 338V303L669 288M680 322L694 300M680 311L674 293" stroke="#2D9B8A"/>
+    <path d="M1165 340V306L1154 290M1165 321L1178 300M1165 312L1160 293" stroke="#2D9B8A"/>
+    <path d="M1178 340V318L1188 305" stroke="#7D73BD"/>
+  </g>
+
+  <!-- Small jellyfish and drifting particles -->
+  <g transform="translate(1080 50)" opacity=".85">
+    <path d="M0 20Q0 0 18 0Q36 0 36 20Z" fill="#4DDCE0"/>
+    <path d="M5 21L2 38M14 21L12 42M23 21L26 39M31 21L35 36" stroke="#65E9E7" stroke-width="3" fill="none"/>
+    <rect x="9" y="8" width="4" height="4" fill="#D5FFFF"/><rect x="24" y="10" width="4" height="4" fill="#D5FFFF"/>
+  </g>
+  <g fill="#9CFBEE">
+    <rect x="1010" y="48" width="4" height="4" opacity=".7"/><rect x="1145" y="78" width="3" height="3"/>
+    <rect x="1060" y="112" width="4" height="4" opacity=".6"/><rect x="1175" y="235" width="4" height="4"/>
+    <rect x="980" y="285" width="3" height="3" opacity=".6"/><rect x="740" y="90" width="4" height="4" opacity=".5"/>
+  </g>
+
+  <!-- The Lost Lobster: chunky pixel-art silhouette -->
+  <g transform="translate(885 151)" shape-rendering="crispEdges">
+    <!-- tail / rear shell -->
+    <g fill="#B84935" stroke="#612B35" stroke-width="4">
+      <rect x="-8" y="91" width="25" height="18"/>
+      <rect x="-24" y="103" width="22" height="16"/>
+      <rect x="-35" y="116" width="19" height="13"/>
+      <rect x="-17" y="122" width="20" height="12"/>
+    </g>
+    <g fill="#F07845">
+      <rect x="-5" y="95" width="12" height="7"/><rect x="-21" y="107" width="11" height="6"/>
+      <rect x="-30" y="119" width="8" height="5"/>
+    </g>
+    <!-- legs -->
+    <g fill="#D95E3F" stroke="#612B35" stroke-width="3">
+      <path d="M41 112H58V121H51V132H43V122H35V117H41Z"/>
+      <path d="M65 112H82V120H76V133H67V122H60V117H65Z"/>
+      <path d="M91 108H106V116H101V129H92V119H85V114H91Z"/>
+      <path d="M25 111H38V119H32V130H24V120H18V116H25Z"/>
+    </g>
+    <!-- body -->
+    <path d="M20 65H39V55H91V62H105V79H112V103H102V115H39V108H22V96H14V78H20Z" fill="#F07845" stroke="#612B35" stroke-width="5"/>
+    <path d="M40 61H86V69H96V80H103V98H91V106H44V99H31V82H38V69H40Z" fill="#FF9860" opacity=".8"/>
+    <g fill="#D85A3E">
+      <rect x="34" y="103" width="58" height="7"/><rect x="47" y="112" width="35" height="5"/>
+      <rect x="22" y="88" width="10" height="12"/><rect x="99" y="88" width="9" height="12"/>
+    </g>
+    <!-- face -->
+    <g fill="#081C2A">
+      <rect x="54" y="78" width="7" height="12"/><rect x="81" y="78" width="7" height="12"/>
+    </g>
+    <g fill="#BDFBF4">
+      <rect x="55" y="78" width="3" height="3"/><rect x="82" y="78" width="3" height="3"/>
+    </g>
+    <!-- claws -->
+    <g stroke="#612B35" stroke-width="4" stroke-linejoin="miter">
+      <path d="M16 83H2V72H-10V58H-2V66H12V72H20Z" fill="#F07845"/>
+      <path d="M-9 58H-20V47H-12V52H-3V58Z" fill="#FF9860"/>
+      <path d="M108 88H124V77H137V63H129V70H114V77H105Z" fill="#F07845"/>
+      <path d="M136 63H148V51H140V57H131V63Z" fill="#FF9860"/>
+    </g>
+    <!-- headphones -->
+    <path d="M38 72V49Q38 18 69 18Q100 18 100 49V72" fill="none" stroke="#101F35" stroke-width="12"/>
+    <path d="M42 70V48Q42 25 69 25Q96 25 96 48V70" fill="none" stroke="#53758D" stroke-width="5"/>
+    <rect x="29" y="56" width="20" height="31" rx="3" fill="#10283B" stroke="#071522" stroke-width="4"/>
+    <rect x="33" y="61" width="12" height="21" fill="#00D4D8"/>
+    <rect x="36" y="65" width="6" height="13" fill="#8DFCF1"/>
+    <rect x="91" y="56" width="18" height="29" rx="3" fill="#10283B" stroke="#071522" stroke-width="4"/>
+    <rect x="95" y="61" width="10" height="19" fill="#00AEBB"/>
+    <!-- tiny music note -->
+    <g fill="#7CF7EA">
+      <rect x="126" y="28" width="5" height="19"/><rect x="131" y="25" width="12" height="5"/>
+      <rect x="123" y="44" width="10" height="5"/>
+    </g>
+  </g>
+
+  <!-- Left-side identity panel -->
+  <g font-family="Consolas, 'Courier New', monospace">
+    <rect x="54" y="48" width="190" height="28" rx="5" fill="#0E394A" stroke="#1A7580"/>
+    <text x="68" y="67" fill="#7CF7EA" font-size="13" font-weight="700" letter-spacing="2">EXPLORER LOG / 206</text>
+    <text x="54" y="137" fill="#E8F7F7" font-size="47" font-weight="700" letter-spacing="1">TRAN MANH HUNG</text>
+    <rect x="56" y="155" width="8" height="8" fill="#F07845"/>
+    <text x="76" y="164" fill="#79E8E2" font-size="17" font-weight="700" letter-spacing="2">COMPUTER SCIENCE STUDENT</text>
+    <text x="56" y="207" fill="#B4CFD8" font-size="17">Exploring intelligent systems beneath the surface.</text>
+    <g font-size="12" font-weight="700" letter-spacing="1.2">
+      <rect x="56" y="235" width="115" height="29" rx="5" fill="#0B3548" stroke="#226778"/>
+      <text x="68" y="254" fill="#8CF3EA">AGENTIC AI</text>
+      <rect x="181" y="235" width="92" height="29" rx="5" fill="#0B3548" stroke="#226778"/>
+      <text x="194" y="254" fill="#8CF3EA">LLMs / NLP</text>
+      <rect x="283" y="235" width="142" height="29" rx="5" fill="#0B3548" stroke="#226778"/>
+      <text x="294" y="254" fill="#8CF3EA">AI ENGINEERING</text>
+    </g>
+    <path d="M56 294H485" stroke="#1D6272" stroke-width="2"/>
+    <text x="56" y="322" fill="#7C9EAC" font-size="13" letter-spacing="1.4">UIT · VNU-HCM</text>
+    <text x="485" y="322" fill="#F4A078" font-size="13" text-anchor="end" font-style="italic">Still wandering. Still listening.</text>
+  </g>
+
+  <!-- Small HUD label on the right -->
+  <g font-family="Consolas, 'Courier New', monospace" font-size="11" letter-spacing="1.4">
+    <text x="1120" y="329" text-anchor="end" fill="#75C9C9" opacity=".75">ATLANTIS // DEEP SEA</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="358" rx="18" fill="none" stroke="#2A7885" stroke-opacity=".55" stroke-width="2"/>
+</svg>
