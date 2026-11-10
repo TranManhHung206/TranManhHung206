@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="title desc">
+<title id="title">Research snapshot — Tran Manh Hung</title>
+<desc id="desc">A compact four-card snapshot: Computer Science at UIT VNU-HCM, AI Engineering direction, research interests in Agentic AI, LLMs, NLP and Automated Program Repair, and current projects Music Tracking and Gemma-Loop.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071827"/><stop offset="1" stop-color="#0A3045"/></linearGradient></defs>
+<rect width="1200" height="190" rx="16" fill="url(#bg)"/>
+<g font-family="Arial, Helvetica, sans-serif">
+  <g>
+    <rect x="20" y="20" width="275" height="150" rx="10" fill="#0D2B3F" stroke="#235D70"/>
+    <rect x="20" y="20" width="275" height="4" rx="2" fill="#00BFCB"/>
+    <text x="42" y="55" fill="#78C8D2" font-size="11" font-weight="700" letter-spacing="1.5">ACADEMIC FOUNDATION</text>
+    <text x="42" y="91" fill="#F0FAFC" font-size="20" font-weight="700">Computer Science</text>
+    <text x="42" y="119" fill="#A8C9D5" font-size="13">UIT · VNU-HCM</text>
+    <text x="42" y="148" fill="#648FA1" font-size="10">FOUNDATION</text>
+  </g>
+  <g>
+    <rect x="310" y="20" width="275" height="150" rx="10" fill="#0D2B3F" stroke="#235D70"/>
+    <rect x="310" y="20" width="275" height="4" rx="2" fill="#00BFCB"/>
+    <text x="332" y="55" fill="#78C8D2" font-size="11" font-weight="700" letter-spacing="1.5">ENGINEERING DIRECTION</text>
+    <text x="332" y="91" fill="#F0FAFC" font-size="20" font-weight="700">Aspiring AI Engineer</text>
+    <text x="332" y="119" fill="#A8C9D5" font-size="13">Backend · AI / ML Systems</text>
+    <text x="332" y="148" fill="#648FA1" font-size="10">CAREER DIRECTION</text>
+  </g>
+  <g>
+    <rect x="600" y="20" width="275" height="150" rx="10" fill="#0D2B3F" stroke="#235D70"/>
+    <rect x="600" y="20" width="275" height="4" rx="2" fill="#00BFCB"/>
+    <text x="622" y="55" fill="#78C8D2" font-size="11" font-weight="700" letter-spacing="1.5">RESEARCH INTERESTS</text>
+    <text x="622" y="88" fill="#F0FAFC" font-size="18" font-weight="700">Agentic AI · LLMs</text>
+    <text x="622" y="115" fill="#A8C9D5" font-size="13">NLP · Program Repair</text>
+    <text x="622" y="148" fill="#648FA1" font-size="10">RESEARCH AREAS</text>
+  </g>
+  <g>
+    <rect x="890" y="20" width="290" height="150" rx="10" fill="#0D2B3F" stroke="#235D70"/>
+    <rect x="890" y="20" width="290" height="4" rx="2" fill="#F07845"/>
+    <text x="912" y="55" fill="#78C8D2" font-size="11" font-weight="700" letter-spacing="1.5">CURRENT WORK</text>
+    <text x="912" y="91" fill="#F0FAFC" font-size="18" font-weight="700">Music Tracking</text>
+    <text x="912" y="119" fill="#F0FAFC" font-size="18" font-weight="700">Gemma-Loop</text>
+    <text x="912" y="148" fill="#648FA1" font-size="10">BUILDING · RESEARCHING</text>
+  </g>
+</g>
+<rect x="1" y="1" width="1198" height="188" rx="15" fill="none" stroke="#2A7885" stroke-opacity=".55" stroke-width="2"/>
+</svg>

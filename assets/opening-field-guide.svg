@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="title desc">
+<title id="title">Field Guide — Backend, AI and Agentic Systems</title>
+<desc id="desc">A deep-ocean technical HUD with an animated sonar sweep and three connected exploration nodes for backend engineering, AI and machine learning, and agentic AI systems.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071827"/><stop offset=".55" stop-color="#0A2B40"/><stop offset="1" stop-color="#0B3548"/></linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1B6174" stop-opacity="0"/><stop offset=".5" stop-color="#42D9DC" stop-opacity=".8"/><stop offset="1" stop-color="#1B6174" stop-opacity="0"/></linearGradient>
+  <radialGradient id="sonar"><stop offset="0" stop-color="#00D4D8" stop-opacity=".16"/><stop offset="1" stop-color="#00D4D8" stop-opacity="0"/></radialGradient>
+  <clipPath id="round"><rect x="1" y="1" width="1198" height="188" rx="15"/></clipPath>
+  <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<g clip-path="url(#round)">
+  <rect width="1200" height="190" fill="url(#bg)"/>
+  <path d="M0 28H1200M0 158H1200" stroke="#6BDDE0" stroke-opacity=".08"/>
+  <path d="M0 0V190M40 0V190M80 0V190M1120 0V190M1160 0V190" stroke="#6BDDE0" stroke-opacity=".035"/>
+  <g fill="#8EEFEB" opacity=".18"><rect x="56" y="27" width="4" height="4"/><rect x="91" y="44" width="3" height="3"/><rect x="516" y="24" width="4" height="4"/><rect x="591" y="150" width="3" height="3"/><rect x="1050" y="33" width="4" height="4"/><rect x="1144" y="142" width="3" height="3"/></g>
+  <path d="M48 91H740" stroke="url(#line)" stroke-width="2"/>
+  <g font-family="Consolas, 'Courier New', monospace">
+    <rect x="48" y="24" width="154" height="22" rx="4" fill="#0B3C50" stroke="#1C7484"/>
+    <text x="60" y="39" fill="#83F1E8" font-size="11" font-weight="700" letter-spacing="1.7">FIELD GUIDE / 206</text>
+    <text x="48" y="79" fill="#ECFAFC" font-size="28" font-weight="700" letter-spacing=".5">BUILDING SYSTEMS THAT THINK.</text>
+    <text x="49" y="111" fill="#A9C8D4" font-size="14">Backend foundations  ·  Machine learning  ·  Agentic workflows</text>
+    <text x="49" y="151" fill="#6395A8" font-size="10" letter-spacing="1.5">SELECTED DIRECTIONS / NOT A COMPLETE INVENTORY</text>
+  </g>
+  <!-- Navigation nodes -->
+  <g font-family="Consolas, 'Courier New', monospace" font-size="11" font-weight="700" letter-spacing=".9">
+    <path d="M758 59H1100" fill="none" stroke="#2F8292" stroke-width="2" stroke-dasharray="4 6"/>
+    <g transform="translate(778 59)"><circle r="23" fill="#0A2B40" stroke="#2B8392" stroke-width="2"/><circle r="7" fill="#00D4D8" filter="url(#softGlow)"><animate attributeName="r" values="6;8;6" dur="3.4s" repeatCount="indefinite"/></circle><text x="0" y="43" text-anchor="middle" fill="#BDE7EC">BACKEND</text><text x="0" y="57" text-anchor="middle" fill="#6F9FAF" font-size="9">SYSTEMS</text></g>
+    <g transform="translate(930 59)"><circle r="23" fill="#0A2B40" stroke="#2B8392" stroke-width="2"/><path d="M-9 -4H9M-6 0H6M-3 4H3" stroke="#67E9E5" stroke-width="3" stroke-linecap="square"/><text x="0" y="43" text-anchor="middle" fill="#BDE7EC">AI / ML</text><text x="0" y="57" text-anchor="middle" fill="#6F9FAF" font-size="9">MODELS</text></g>
+    <g transform="translate(1082 59)"><circle r="23" fill="#0A2B40" stroke="#2B8392" stroke-width="2"/><path d="M-9 0L-2 -8L6 -4L9 5L0 9L-8 5Z" fill="none" stroke="#67E9E5" stroke-width="2"/><circle cx="0" cy="0" r="3" fill="#67E9E5"/><text x="0" y="43" text-anchor="middle" fill="#BDE7EC">AGENTIC AI</text><text x="0" y="57" text-anchor="middle" fill="#6F9FAF" font-size="9">SYSTEMS</text></g>
+  </g>
+  <!-- Sonar sweep -->
+  <g transform="translate(1082 59)" opacity=".75">
+    <circle r="35" fill="none" stroke="#55DDE0" stroke-opacity=".16"/>
+    <circle r="47" fill="none" stroke="#55DDE0" stroke-opacity=".1"/>
+    <path d="M0 0L0 -45A45 45 0 0 1 39 22Z" fill="#00D4D8" opacity=".08"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/></path>
+    <path d="M0 0L0 -45" stroke="#76F4ED" stroke-width="1.5" opacity=".65"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/></path>
+  </g>
+  <path d="M742 154H1153" stroke="#2C7181" stroke-opacity=".55"/>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#71A6B5" letter-spacing="1.1"><text x="1150" y="173" text-anchor="end">DEPTH SCAN / SYSTEMS IN FOCUS</text></g>
+</g>
+<rect x="1" y="1" width="1198" height="188" rx="15" fill="none" stroke="#2A7885" stroke-opacity=".6" stroke-width="2"/>
+</svg>

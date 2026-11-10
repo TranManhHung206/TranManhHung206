@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
+<title id="title">Selected project architectures</title>
+<desc id="desc">Two simplified workflows. Music Tracking has a primary Spotify-to-Django-to-audio-analytics-to-AI-insights pipeline, plus a separate codebase RAG capability using hybrid retrieval and citation verification. Gemma-Loop feeds program and test context into diagnosis, Gemma inference, a candidate patch, and execution feedback, with episodic reflection informing later attempts.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071827"/><stop offset="1" stop-color="#0B2C40"/></linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#102F43"/><stop offset="1" stop-color="#0A2234"/></linearGradient>
+  <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0L6 3L0 6Z" fill="#51C9D3"/></marker>
+</defs>
+<rect width="1200" height="540" rx="16" fill="url(#bg)"/>
+<g font-family="Arial, Helvetica, sans-serif">
+  <!-- Music Tracking -->
+  <rect x="24" y="20" width="1152" height="238" rx="12" fill="url(#panel)" stroke="#23596E"/>
+  <rect x="44" y="37" width="7" height="24" rx="2" fill="#F07845"/>
+  <text x="64" y="55" fill="#E8F8FA" font-size="19" font-weight="700">MUSIC TRACKING</text>
+  <text x="1150" y="54" fill="#75B7C4" font-size="11" text-anchor="end" letter-spacing="1.5">PRODUCT WORKFLOW</text>
+  <g fill="none" stroke="#51C9D3" stroke-width="2" marker-end="url(#arrow)">
+    <path d="M292 112H340"/><path d="M560 112H608"/><path d="M828 112H876"/>
+  </g>
+  <g>
+    <rect x="58" y="76" width="234" height="78" rx="9" fill="#0B3A50" stroke="#2B8191"/>
+    <text x="175" y="99" text-anchor="middle" fill="#8FF0E8" font-size="11" font-weight="700">01 / INPUT</text>
+    <text x="175" y="123" text-anchor="middle" fill="#F1FAFC" font-size="15" font-weight="700">Spotify Data</text>
+    <text x="175" y="141" text-anchor="middle" fill="#9BBECA" font-size="10">Listening history</text>
+
+    <rect x="340" y="76" width="220" height="78" rx="9" fill="#0B3A50" stroke="#2B8191"/>
+    <text x="450" y="99" text-anchor="middle" fill="#8FF0E8" font-size="11" font-weight="700">02 / BACKEND</text>
+    <text x="450" y="123" text-anchor="middle" fill="#F1FAFC" font-size="15" font-weight="700">Django REST API</text>
+    <text x="450" y="141" text-anchor="middle" fill="#9BBECA" font-size="10">Application &amp; data workflows</text>
+
+    <rect x="608" y="76" width="220" height="78" rx="9" fill="#0B3A50" stroke="#2B8191"/>
+    <text x="718" y="99" text-anchor="middle" fill="#8FF0E8" font-size="11" font-weight="700">03 / PROCESSING</text>
+    <text x="718" y="123" text-anchor="middle" fill="#F1FAFC" font-size="15" font-weight="700">Audio Analytics &amp; DSP</text>
+    <text x="718" y="141" text-anchor="middle" fill="#9BBECA" font-size="10">Features · statistics · classical ML</text>
+
+    <rect x="876" y="76" width="266" height="78" rx="9" fill="#123E50" stroke="#48BFC4"/>
+    <text x="1009" y="99" text-anchor="middle" fill="#8FF0E8" font-size="11" font-weight="700">04 / INTELLIGENCE</text>
+    <text x="1009" y="123" text-anchor="middle" fill="#F1FAFC" font-size="15" font-weight="700">AI Music Insights</text>
+    <text x="1009" y="141" text-anchor="middle" fill="#9BBECA" font-size="10">Music assistant · LLM features</text>
+  </g>
+  <!-- Separate RAG capability, not a sequential pipeline step -->
+  <rect x="58" y="177" width="1084" height="59" rx="8" fill="#0B293C" stroke="#28697B" stroke-dasharray="5 4"/>
+  <text x="76" y="198" fill="#F2A078" font-size="10" font-weight="700" letter-spacing="1.2">SEPARATE CAPABILITY</text>
+  <text x="76" y="220" fill="#D8F3F5" font-size="13" font-weight="700">Codebase RAG</text>
+  <path d="M300 207H384M590 207H674M886 207H970" stroke="#51C9D3" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <g font-size="12" text-anchor="middle">
+    <text x="480" y="212" fill="#B8D7E0">Source code</text>
+    <text x="780" y="212" fill="#B8D7E0">Hybrid retrieval · ChromaDB + BM25</text>
+    <text x="1050" y="212" fill="#B8D7E0">Citation verification</text>
+  </g>
+  <!-- Gemma-Loop -->
+  <rect x="24" y="278" width="1152" height="238" rx="12" fill="url(#panel)" stroke="#23596E"/>
+  <rect x="44" y="296" width="7" height="24" rx="2" fill="#F07845"/>
+  <text x="64" y="314" fill="#E8F8FA" font-size="19" font-weight="700">GEMMA-LOOP</text>
+  <text x="1150" y="313" fill="#75B7C4" font-size="11" text-anchor="end" letter-spacing="1.5">RESEARCH WORKFLOW</text>
+  <g fill="none" stroke="#51C9D3" stroke-width="2" marker-end="url(#arrow)">
+    <path d="M240 390H270"/><path d="M454 390H484"/><path d="M668 390H698"/><path d="M882 390H912"/>
+    <path d="M1030 433V455H362V433" stroke-dasharray="5 5" opacity=".75"/>
+  </g>
+  <g>
+    <rect x="48" y="352" width="192" height="81" rx="9" fill="#0B3A50" stroke="#2B8191"/>
+    <text x="144" y="374" text-anchor="middle" fill="#8FF0E8" font-size="10" font-weight="700">01 / TASK</text>
+    <text x="144" y="399" text-anchor="middle" fill="#F1FAFC" font-size="14" font-weight="700">Bug + Tests</text>
+    <text x="144" y="418" text-anchor="middle" fill="#9BBECA" font-size="10">Program repair task</text>
+
+    <rect x="270" y="352" width="184" height="81" rx="9" fill="#0B3A50" stroke="#2B8191"/>
+    <text x="362" y="374" text-anchor="middle" fill="#8FF0E8" font-size="10" font-weight="700">02 / FEEDBACK</text>
+    <text x="362" y="399" text-anchor="middle" fill="#F1FAFC" font-size="14" font-weight="700">Fused Diagnosis</text>
+    <text x="362" y="418" text-anchor="middle" fill="#9BBECA" font-size="10">Traceback · lint · context</text>
+
+    <rect x="484" y="352" width="184" height="81" rx="9" fill="#123E50" stroke="#48BFC4"/>
+    <text x="576" y="374" text-anchor="middle" fill="#8FF0E8" font-size="10" font-weight="700">03 / MODEL</text>
+    <text x="576" y="399" text-anchor="middle" fill="#F1FAFC" font-size="14" font-weight="700">Gemma 4</text>
+    <text x="576" y="418" text-anchor="middle" fill="#9BBECA" font-size="10">Budget-aware inference</text>
+
+    <rect x="698" y="352" width="184" height="81" rx="9" fill="#0B3A50" stroke="#2B8191"/>
+    <text x="790" y="374" text-anchor="middle" fill="#8FF0E8" font-size="10" font-weight="700">04 / REPAIR</text>
+    <text x="790" y="399" text-anchor="middle" fill="#F1FAFC" font-size="14" font-weight="700">Candidate Patch</text>
+    <text x="790" y="418" text-anchor="middle" fill="#9BBECA" font-size="10">Generated code changes</text>
+
+    <rect x="912" y="352" width="240" height="81" rx="9" fill="#0B3A50" stroke="#2B8191"/>
+    <text x="1032" y="374" text-anchor="middle" fill="#8FF0E8" font-size="10" font-weight="700">05 / EVALUATION</text>
+    <text x="1032" y="399" text-anchor="middle" fill="#F1FAFC" font-size="14" font-weight="700">Execute &amp; Verify</text>
+    <text x="1032" y="418" text-anchor="middle" fill="#9BBECA" font-size="10">Test outcome → next attempt</text>
+  </g>
+  <rect x="405" y="466" width="342" height="27" rx="13" fill="#123C4D" stroke="#2D7583"/>
+  <text x="576" y="484" fill="#9BECE8" font-size="11" text-anchor="middle">Episodic reflection informs later attempts (k ≤ 2)</text>
+  <text x="1150" y="493" text-anchor="end" fill="#6D9BAA" font-size="9">SIMPLIFIED CONCEPTUAL VIEW</text>
+</g>
+<rect x="1" y="1" width="1198" height="538" rx="16" fill="none" stroke="#2A7885" stroke-opacity=".55" stroke-width="2"/>
+</svg>

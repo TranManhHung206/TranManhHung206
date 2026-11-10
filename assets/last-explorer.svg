@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-labelledby="title desc">
+<title id="title">The Last Explorer — The Lost Lobster</title>
+<desc id="desc">A quiet 16-bit pixel-art underwater ending scene. A small orange lobster wearing headphones slowly swims toward a distant glowing Atlantis gate. Bubbles rise, sea grass sways, and the gate pulses softly.</desc>
+<defs>
+  <linearGradient id="ocean" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061522"/><stop offset=".55" stop-color="#09283B"/><stop offset="1" stop-color="#103C50"/></linearGradient>
+  <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#68F4EB" stop-opacity=".18"/><stop offset="1" stop-color="#00D4D8" stop-opacity="0"/></linearGradient>
+  <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="clip"><rect x="1" y="1" width="1198" height="228" rx="16"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+  <rect width="1200" height="230" fill="url(#ocean)"/>
+  <path d="M850 0H930L1070 230H970Z" fill="url(#beam)"><animate attributeName="opacity" values=".45;.85;.45" dur="8s" repeatCount="indefinite"/></path>
+  <path d="M1010 0H1050L1160 230H1115Z" fill="url(#beam)" opacity=".55"/>
+  <path d="M0 32H1200M0 190H1200" stroke="#75DCE0" stroke-opacity=".045"/>
+  <!-- distant city -->
+  <g fill="#0A3549" stroke="#1A5B70" stroke-width="3" shape-rendering="crispEdges">
+    <path d="M730 178V102H747V83H775V102H792V178Z"/><path d="M790 178V82H811V58H858V82H879V178Z"/>
+    <path d="M888 178V65H910V35H955V65H978V178Z"/><path d="M980 178V105H998V88H1032V105H1050V178Z"/>
+    <path d="M1044 178V120H1063V101H1097V120H1115V178Z"/><path d="M1110 178V90H1132V69H1172V90H1190V178Z"/>
+  </g>
+  <g fill="#78F4E9" filter="url(#glow)"><rect x="830" y="95" width="7" height="15" opacity=".65"/><rect x="926" y="76" width="7" height="17"/><rect x="951" y="76" width="7" height="17" opacity=".6"/><rect x="1081" y="132" width="6" height="12" opacity=".7"/><rect x="1150" y="106" width="7" height="15" opacity=".7"/></g>
+  <!-- glowing gate / final destination -->
+  <g transform="translate(1020 163)">
+    <path d="M-48 13V-29Q-48 -82 0 -82Q48 -82 48 -29V13" fill="none" stroke="#1D687C" stroke-width="10"/>
+    <path d="M-38 13V-28Q-38 -70 0 -70Q38 -70 38 -28V13" fill="none" stroke="#69EEE6" stroke-width="3" opacity=".8"><animate attributeName="opacity" values=".4;.9;.4" dur="4.8s" repeatCount="indefinite"/></path>
+    <rect x="-32" y="-30" width="64" height="43" fill="#00D4D8" opacity=".08"><animate attributeName="opacity" values=".05;.18;.05" dur="4.8s" repeatCount="indefinite"/></rect>
+    <path d="M0 -66V-10" stroke="#B8FFF8" stroke-width="2" opacity=".5"/>
+  </g>
+  <!-- broken columns / seabed -->
+  <path d="M0 193L110 181L195 192L310 180L405 194L515 182L620 194L730 181L830 196L950 184L1050 196L1140 184L1200 192V230H0Z" fill="#061A27"/>
+  <g fill="#16465A" stroke="#2A7580" stroke-width="2" shape-rendering="crispEdges"><rect x="60" y="181" width="70" height="12"/><rect x="72" y="167" width="42" height="14"/><rect x="624" y="183" width="54" height="12"/><rect x="639" y="170" width="27" height="13"/><rect x="1100" y="182" width="62" height="12"/></g>
+  <!-- swaying sea grass -->
+  <g stroke-linecap="square" stroke-width="4" fill="none" shape-rendering="crispEdges">
+    <g transform="translate(160 213)"><path d="M0 0V-34L-12 -49M0 -14L14 -39M0 -27L-5 -52" stroke="#2B9B89"><animateTransform attributeName="transform" type="skewX" values="-3;3;-3" dur="5.5s" repeatCount="indefinite"/></path></g>
+    <g transform="translate(1165 212)"><path d="M0 0V-34L-12 -49M0 -14L14 -39M0 -27L-5 -52" stroke="#2B9B89"><animateTransform attributeName="transform" type="skewX" values="3;-3;3" dur="6s" repeatCount="indefinite"/></path></g>
+  </g>
+  <!-- rising bubbles -->
+  <g fill="none" stroke="#9CFBEE" stroke-width="2" opacity=".6">
+    <circle cx="90" cy="175" r="3"><animate attributeName="cy" values="175;105;175" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values=".1;.75;.1" dur="7s" repeatCount="indefinite"/></circle>
+    <circle cx="118" cy="190" r="2"><animate attributeName="cy" values="190;120;190" dur="8.5s" begin="-2s" repeatCount="indefinite"/></circle>
+    <circle cx="585" cy="178" r="3"><animate attributeName="cy" values="178;94;178" dur="9s" begin="-4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".1;.7;.1" dur="9s" begin="-4s" repeatCount="indefinite"/></circle>
+    <circle cx="681" cy="189" r="2"><animate attributeName="cy" values="189;130;189" dur="6.5s" begin="-1.5s" repeatCount="indefinite"/></circle>
+  </g>
+  <!-- a distant jellyfish -->
+  <g transform="translate(640 63)" opacity=".72"><animateTransform attributeName="transform" type="translate" values="640 63;646 55;640 63;634 69;640 63" dur="8s" repeatCount="indefinite"/>
+    <path d="M0 18Q0 -2 19 -2Q38 -2 38 18Z" fill="#4DDCE0"/><path d="M5 19L2 38M14 19L13 42M24 19L27 40M33 19L37 35" stroke="#72EBE6" stroke-width="2.5" fill="none"/>
+    <rect x="10" y="7" width="4" height="4" fill="#E1FFFF"/><rect x="25" y="7" width="4" height="4" fill="#E1FFFF"/>
+  </g>
+  <!-- Lobster swims slowly toward the distant gate -->
+  <g transform="translate(275 91)" shape-rendering="crispEdges">
+    <animateTransform attributeName="transform" type="translate" values="275 91;292 86;309 91;292 96;275 91" dur="11s" repeatCount="indefinite"/>
+    <!-- back tail -->
+    <g fill="#B84935" stroke="#612B35" stroke-width="3"><rect x="-24" y="53" width="20" height="13"/><rect x="-39" y="64" width="19" height="12"/><rect x="-34" y="77" width="18" height="10"/><rect x="-14" y="76" width="16" height="10"/></g>
+    <g fill="#F07845"><rect x="-21" y="56" width="11" height="5"/><rect x="-34" y="67" width="10" height="5"/></g>
+    <!-- body -->
+    <path d="M10 38H26V31H72V36H85V49H92V69H83V80H27V74H12V65H5V48H10Z" fill="#F07845" stroke="#612B35" stroke-width="4"/>
+    <path d="M29 36H70V42H80V54H84V68H72V74H31V67H18V49H26V41Z" fill="#FF9860" opacity=".85"/>
+    <g fill="#D85A3E"><rect x="22" y="72" width="52" height="6"/><rect x="30" y="81" width="36" height="5"/></g>
+    <!-- eyes -->
+    <g fill="#071B29"><rect x="43" y="51" width="6" height="9"/><rect x="66" y="51" width="6" height="9"/></g><g fill="#CBFFFA"><rect x="44" y="51" width="2" height="2"/><rect x="67" y="51" width="2" height="2"/></g>
+    <!-- legs -->
+    <g fill="#D95E3F" stroke="#612B35" stroke-width="2"><path d="M27 77H40V83H35V95H28V85H22V81H27Z"/><path d="M48 78H61V84H56V97H49V86H43V82H48Z"/><path d="M68 76H81V82H76V93H69V84H63V80H68Z"/></g>
+    <!-- claws -->
+    <g stroke="#612B35" stroke-width="3"><path d="M12 53H0V43H-10V31H-3V37H8V43H16Z" fill="#F07845"/><path d="M-10 31H-20V21H-12V26H-3V31Z" fill="#FF9860"/><path d="M86 55H100V45H110V34H103V40H91V46H84Z" fill="#F07845"/><path d="M110 34H120V24H113V29H105V34Z" fill="#FF9860"/></g>
+    <!-- headphones -->
+    <path d="M26 46V29Q26 4 54 4Q82 4 82 29V47" fill="none" stroke="#101F35" stroke-width="9"/><path d="M29 44V29Q29 9 54 9Q79 9 79 29V44" fill="none" stroke="#53758D" stroke-width="3"/>
+    <rect x="19" y="37" width="15" height="25" rx="2" fill="#10283B" stroke="#071522" stroke-width="3"/><rect x="22" y="41" width="9" height="17" fill="#00D4D8"><animate attributeName="opacity" values=".55;1;.55" dur="2.8s" repeatCount="indefinite"/></rect>
+    <rect x="75" y="37" width="15" height="25" rx="2" fill="#10283B" stroke="#071522" stroke-width="3"/><rect x="78" y="41" width="9" height="17" fill="#00AEBB"><animate attributeName="opacity" values="1;.55;1" dur="2.8s" repeatCount="indefinite"/></rect>
+    <g fill="#7CF7EA"><animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="3.6s" repeatCount="indefinite"/><rect x="110" y="4" width="4" height="15"/><rect x="114" y="2" width="9" height="4"/><rect x="107" y="17" width="8" height="4"/></g>
+  </g>
+  <!-- foreground pixel motes -->
+  <g fill="#8DF7EE"><rect x="430" y="35" width="3" height="3" opacity=".5"/><rect x="502" y="155" width="4" height="4" opacity=".4"/><rect x="740" y="124" width="3" height="3" opacity=".6"/><rect x="1142" y="45" width="3" height="3" opacity=".45"/></g>
+  <g font-family="Consolas, 'Courier New', monospace">
+    <text x="44" y="42" fill="#78D9D7" font-size="11" letter-spacing="2">FINAL LOG // ATLANTIS OUTER REEF</text>
+    <text x="44" y="74" fill="#EAF8F8" font-size="21" font-weight="700" letter-spacing="1">THE LAST EXPLORER</text>
+    <text x="44" y="96" fill="#9DBDC8" font-size="12">Somewhere between the signal and the silence.</text>
+    <path d="M44 113H270" stroke="#2B7583" stroke-width="2"/>
+    <text x="1150" y="211" text-anchor="end" fill="#7BB8C0" font-size="11" letter-spacing="1.4">END OF TRANSMISSION  /  206</text>
+  </g>
+</g>
+<rect x="1" y="1" width="1198" height="228" rx="16" fill="none" stroke="#2A7885" stroke-opacity=".6" stroke-width="2"/>
+</svg>
